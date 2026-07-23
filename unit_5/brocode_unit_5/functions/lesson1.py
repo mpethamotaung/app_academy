@@ -1,7 +1,10 @@
 # A function to display an invoice
 
 def display_invoice(username, amount, due_date):
-    print(f"Hello {username} your bill of ${amount:.2f} is due on {due_date}")
+    print(f"Hello {username}")
+    print(f"Your bill of ${amount:.2f} is due: {due_date}")
+
+display_invoice("BroCode", 42.49, "03 May 2026")
 
 
 
