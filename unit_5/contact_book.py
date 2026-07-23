@@ -76,5 +76,5 @@ def contact_book():
         else:
             print("Invalid option! Enter a number between 1 - 5.")
 
-if __name__ == '__main__':
+if __name__ == '__main__': #if name = main run contact (Run this file directly, not imported by another file)
     contact_book()
