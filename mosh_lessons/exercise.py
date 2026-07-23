@@ -1,0 +1,5 @@
+#Exercise to store values
+
+first_name = "John"
+last_name = "Smith"
+age = 20
