@@ -20,7 +20,8 @@ while True:
     except ValueError:
         print("Please enter a valid number or 'stop' ")
         continue
-
+        
+    # Checks the core and gives back feedback
     if score > 100:
         print("Wow! That's a new high score!")
     else:
