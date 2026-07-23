@@ -14,6 +14,7 @@ while True:
         print("Game session ended!")
         break
 
+    # Else, try to convert the input to an integer
     try:
         score = int(user_input)
     except ValueError:
